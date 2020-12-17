@@ -9,6 +9,7 @@ let workDay = {
   "3 PM": "",
   "4 PM": "",
   "5 PM": "",
+  "6 PM": "",
 };
 
 $(document).ready(function(){
@@ -58,6 +59,7 @@ function hourNumberFromHourString(hourString) {
     case "3 PM": return 15;
     case "4 PM": return 16;
     case "5 PM": return 17;
+    case "6 PM": return 18;
   }
 }
 

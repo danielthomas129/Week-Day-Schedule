@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
   font-size: 16px;
   line-height: 1;
 }
@@ -45,17 +46,18 @@ textarea{
 
 .past-hour {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
+
 }
 
 .present-hour {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future-hour {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
